@@ -1,0 +1,104 @@
+* {
+    padding: auto;
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    background-color: white;
+}
+a {
+    color: inherit;
+    
+}
+#bg-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box-login {
+    width: 300px;
+    min-height: 200px;
+    border:1px solid #ccc;
+    background-color: whitesmoke;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.input-control {
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    box-sizing: border-box;
+}
+.btn {
+    padding:8px 15px ;
+    background-color: red;
+    color: aliceblue;   
+    border: none;
+}
+
+header {
+    background-color: green;
+    
+   
+    
+}
+
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: red;
+    font-family : Arial ;
+    
+}
+.h1 {
+ font-family: 'Quicksand', sans-serif;
+}
+header ul {
+    float: right;
+}
+
+header ul li {
+    padding:20px 0 20px 15px;
+    display: inline-block;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container :after{
+    content: '';
+    display:block;
+    clear : both;
+}
+.section {
+    padding:100px 0;
+    border:1px solid;
+}
+.box {
+    background-color: #fff;
+    border:1px solid #ccc;
+    padding:13px;
+    box-sizing: border-box;
+    margin:10px 0 25px 0; 
+}
+footer{
+    padding: 15px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: #ccc;
+}
+
+.table tr {
+    height: 30px;
+}
+
+.table tr td {
+    padding:5px 10px;
+}
